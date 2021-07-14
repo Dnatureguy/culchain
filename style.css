@@ -647,10 +647,12 @@ color:black;
     float: left;
     width: 100px;
     height: 40px;
+    border: none;
 }
 .futlogo{
     min-width: 300px;
     min-height: 250px;
+        border: none;
 }
 .footer {
 display: flex;
