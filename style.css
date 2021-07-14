@@ -237,6 +237,7 @@ background-color: #fef8f4;
     margin: 50px;
     text-align: center;
     font-size: 28px;
+    font-weight: 900;
 }
 #btnC{
     margin-top: 50px;
@@ -410,7 +411,7 @@ margin-top: -22px;
         position: relative;
         margin-top: 200px;
         margin-bottom: 20px;
-        right: 500px;
+        right: 540px;
     }
     .row .gh2{
         position: relative;
@@ -419,7 +420,7 @@ margin-top: -22px;
     }
     .row .gh3{
         position: relative;
-        
+        left: 40px;
         margin-top: 200px;
     }
 }
@@ -429,8 +430,6 @@ margin-top: -22px;
     height: 170px;
     margin-top: -25px;
     z-index: 999;
-
-
 }
 .nav-logo{
     margin-left: -11px;
@@ -452,8 +451,9 @@ margin-top: -22px;
     flex-direction: column;
     background-color: #fef8f4;
     width: 100%;
+    text-align: left;
+    height: 100%;
     border-radius: 10px;
-    text-align: center;
     transition: 0.3s;
     box-shadow:
         0 10px 27px rgba(0, 0, 0, 0.05);
@@ -465,6 +465,10 @@ margin-top: -22px;
 
 .nav-item {
     margin: 2.5rem 0;
+    float: left;
+}
+.text1{
+    margin-left: -30px;
 }
 .line{
     display: block;  
@@ -576,11 +580,41 @@ color: #333333;
   }
   
   /* Responsive columns */
-  @media only screen and (min-width: 358px) and (max-width: 600px) {
+  @media only screen and (min-width: 360px) and (max-width: 600px) {
     .column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
+      margin-left: -40px;
+    }
+    .nav-item{
+        position: relative;
+        right: 55px;
+    }
+    .fy{
+        position: relative;
+        right: 80px;
+        bottom: 130px;
+    }
+    .line{
+        position: relative;
+        bottom: 206px;
+    }
+    .nav-link svg{
+        position: relative;
+        right: 88px;
+        bottom: 308px;
+    }
+    .ty {
+        position: relative;
+        left: 100px;
+        bottom: 208px;
+    }
+    .yt{
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+        margin-left: -5px;
+        margin-top: -8rem;
     }
   }
   
@@ -588,17 +622,28 @@ color: #333333;
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
-    width: 300px;
-    height: 200px;
+    width: 330px;
+    height: 230px;
     text-align: left;
-    background-color: #f1f1f1;
-  }
+    margin: 20px;
+    background-color: white;
+}
+.step{
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
 .fut{
 color:black;
 }
+.l-footer p{
+    font-family: 'Quicksand', sans-serif;
+
+}
 .l-footer img{
     margin-left: -4rem;
-    margin-top: -1rem;
+    margin-top: -9rem;
     float: left;
     width: 100px;
     height: 40px;
@@ -670,20 +715,33 @@ padding-top: 50px;
 }
 
 .l-footer p {
+font-family: 'Quicksand', sans-serif;
 padding-right: 10%;
 color: black;
 font-size: 16px;
-
 }   
+.yt a{
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    bottom: 90px;
+    font-weight: 900;
+}
+.footers{
+    position: relative;
+    left: 46%;
+}
+.bx{
+    font-size: 40px;
+    color: black;
+}
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 .r-footer > * {
 flex: 1;
 }
 .futlogo{
     margin-top: -3rem;
 }
-
 .features {
 flex-grow: 2;
 }
